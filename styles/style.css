@@ -37,6 +37,7 @@ header {
 }
 nav a:hover {
   background-color: black;
+  text-decoration: underline;
 }
 
 .book, .join{
@@ -45,6 +46,7 @@ nav a:hover {
 
 .book:hover, .join:hover {
   background-color: aliceblue;
+  text-decoration: underline;
 }
 
 .msg{
@@ -59,6 +61,7 @@ footer{
 nav a:hover {
   background-color:darkseagreen;
   color: whitesmoke;
+  text-decoration: underline;
 }
 
 .home-title{
@@ -79,6 +82,7 @@ h4{
 .book:hover, .join:hover{
   background-color:darkseagreen;
   color: whitesmoke;
+  text-decoration: underline;
 }
 .msg h2{
   background-color:darkseagreen;
@@ -102,6 +106,7 @@ footer a{
 footer a:hover{
   background-color:darkseagreen;
   color: whitesmoke;
+  text-decoration: underline;
 }
 
 .logo {
