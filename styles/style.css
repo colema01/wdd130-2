@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@500&display=swap');
 #content {
     width: 1600px;
     margin: 0 auto;
@@ -10,6 +11,7 @@ nav a {
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
+  padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -31,6 +33,10 @@ main section {
 
 body {
   background-color: #fcfbfb; 
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 header {
   background-color: darkseagreen;
@@ -42,6 +48,8 @@ nav a:hover {
 
 .book, .join{
   background-color: burlywood;
+  font-size: 18px;
+  padding: 15px 30px;
 }
 
 .book:hover, .join:hover {
@@ -51,10 +59,14 @@ nav a:hover {
 
 .msg{
   background-color: darkseagreen;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer{
   background-color: darkseagreen;
+  padding: 25px 50px;
+  margin-top: 200px;
 
 }
 
@@ -67,6 +79,9 @@ nav a:hover {
 .home-title{
   background-color:darkseagreen;
   color: whitesmoke;
+  font-family: "Poppins";
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4{
   background-color:darkseagreen;
@@ -78,6 +93,8 @@ h4{
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover, .join:hover{
   background-color:darkseagreen;
@@ -87,10 +104,14 @@ h4{
 .msg h2{
   background-color:darkseagreen;
   color: whitesmoke;
+  font-family: "Poppins";
+  margin: 0;
 }
 .msg p{
   background-color:darkseagreen;
   color: whitesmoke;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 footer h3{
   background-color:darkseagreen;
@@ -120,4 +141,36 @@ footer p {
 
 footer p a:hover {
   text-decoration: underline;
-}    
+}   
+
+h2{
+  margin: 0;
+}
+
+#logo_link{
+  padding-top: 5px;
+}
+
+.icon{
+  padding-top: 10px;
+}
+
+footer .social img {
+  padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+
+.card-img{
+  border: 10px solid black;
+}
+
+main section img{
+  box-sizing: border-box;
+}
+
+.boat{
+  border: 10px solid black;
+}
