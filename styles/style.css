@@ -11,7 +11,8 @@ nav a {
   text-align: center;
   color: #fcfbfb;
   text-decoration: none;
-  padding: 35px;
+  padding: 5px;
+  /* my logo isn't showing correctly with 35px. that is why i have it on 5px */
 }
 
 #hero-msg h1, #hero-msg h4 {
